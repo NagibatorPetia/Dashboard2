@@ -1,31 +1,30 @@
-# Data driven PWA
+#Dashboard
 
-In this codelab, you’ll use [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) and [Workbox](https://workboxjs.org/) to create a fully offline-capable, data-driven app. You'll also use [Background Sync](https://developers.google.com/web/updates/2015/12/background-sync) to sync your app with the server even when your web app is closed.
+This is a site that can work both online and offline. The "filling" of the site is very diverse and complex, as it might seem at first glance.
 
-## Getting started
+Thanks to the function by which the site can work offline, all the data that you have ever entered during the month will remain on this site, and you can continue to work with them
 
-Follow the [Google Codelabs instructions](https://codelabs.developers.google.com/codelabs/workbox-indexeddb/index.html?index=..%2F..%2Findex#0).
+#To start working with the Site you need:
 
-## More resources
+1. Good knowledge of HTML-5, JavaScript, CSS
 
-* IndexedDB [lecture](https://developers.google.com/web/ilt/pwa/working-with-indexeddb-slides), [lab](https://developers.google.com/web/ilt/pwa/lab-indexeddb), and [concepts](https://developers.google.com/web/ilt/pwa/working-with-indexeddb)
-* [Workbox codelab](https://codelabs.developers.google.com/codelabs/workbox-lab/#0)
-* [PWA training materials](https://developers.google.com/web/ilt/pwa/)
+2. Access to the terminal (console), stable Internet(For the first time)
 
-## License
+3. Application for editing code.
 
-Copyright 2018 Google Inc.
+4. Access to the Git library and Workbox library
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+5. A lot of time (For tests and work)
 
-    http://www.apache.org/licenses/LICENSE-2.0
+First you need to download the code, for this open the terminal and enter this command: git clone https://github.com/NagibatorPetia/Dashboardr.git
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Enter this command in the terminal:
+npm install
+npm run --silent start
 
-This is not an official Google product.
+Open the browser tab for http://localhost:**** (**** - your server address, 8081 for example)
+
+Congratulations, you got access to the site and its server!
+
+If you have any difficulties or problems, check out this tutorial for more detailed tutorials: 
+https://codelabs.developers.google.com/codelabs/workbox-indexeddb/index.html?index=..%2F..index#0
