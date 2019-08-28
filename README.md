@@ -6,13 +6,13 @@ Thanks to the function by which the site can work offline, all the data that you
 
 ## To start working with the Site you need:
 
-- Good knowledge of HTML-5, JavaScript, CSS
+- Good knowledge of **HTML-5, JavaScript, CSS**
 
 - Access to the terminal (console), stable Internet(For the first time)
 
 - Application for editing code.
 
-- Access to the Git library and Workbox library
+- Access to the **Git** library and **Workbox** library
 
 - A lot of time (For tests and work)
 
